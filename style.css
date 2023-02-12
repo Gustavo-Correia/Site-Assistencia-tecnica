@@ -75,7 +75,7 @@ header {
 
 
 .logo img{
-    width: 19%;
+    width: 25%;
     height: 11%;
     position: relative;
     top: 0;
@@ -386,6 +386,7 @@ a{
     width: 27%;
     height: 40%;
     z-index: 1;
+    border-radius: 5%;
 }
 
 .not-2{
@@ -394,7 +395,7 @@ a{
     left: 36%;
     width: 27%;
     height: 40%;
-    
+    border-radius: 5%;
 }
 
 .note-txt{
@@ -422,7 +423,7 @@ a{
     left: 67%;
     width: 27%;
     height: 40%;
-    
+    border-radius: 5%;
 }
 
 
@@ -591,7 +592,7 @@ iframe{
     left: 75%;
     margin-right: 1%;
 }
-.redes-socias, img:hover{
+.rede-1 img:hover{
     cursor: pointer;
     animation-name: up;
     animation-duration: 1s;
@@ -599,6 +600,42 @@ iframe{
     animation-iteration-count: infinite;
     
 }
+
+.rede-2 img:hover{
+    cursor: pointer;
+    animation-name: up;
+    animation-duration: 1s;
+    animation-timing-function:step-start;
+    animation-iteration-count: infinite;
+    
+}
+
+.rede-3 img:hover{
+    cursor: pointer;
+    animation-name: up;
+    animation-duration: 1s;
+    animation-timing-function:step-start;
+    animation-iteration-count: infinite;
+    
+}
+
+.rede-4 img:hover{
+    cursor: pointer;
+    animation-name: up;
+    animation-duration: 1s;
+    animation-timing-function:step-start;
+    animation-iteration-count: infinite;
+
+}
+
+.rede-4 img{
+    position: relative;
+    width: 4%;
+    left: 75%;
+}
+
+
+
 
 @keyframes up{
     from{
